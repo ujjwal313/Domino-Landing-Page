@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  max-width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  z-index: 10;  
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #708aa5;
+    font-weight: 700;
+    height: auto;
+    width: auto;
+    display: inline;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navbar li:hover{
+    color: #1a5ca3;
+}
+
+.nav-btn{
+    border: 1px solid #000;
+    color: #fff;
+    background-color:#f3223b;
+    height: 45px;
+    width: 148px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo{
+    display: inline;
+    height: 33px;
+    width: 211px;
+}
+
+/* Online Order Banner */
+
+.online-order{
+    background-color: #1a5ca3;
+    height: 448px;
+    width: 100%;
+    position: relative;
+}
+
+.header-img{
+    position: absolute;
+    top: 15px;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.online-order h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    width: 700;
+    transform: translateY(140px) translateX(30px);    
+}
+
+.online-order p{
+    color: #47a0ff;
+    font-size: 21px;
+    transform: translateY(140px) translateX(30px);
+}
+
+.order-btn{
+    background-color: #1fb31a;
+    color: #fff;
+    transform: translateY(170px) translateX(30px);
+    height: 60px;
+    width: 400px;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 1px 6px 1px 6px;
+    font-weight: bold;
+    border: none;
+    box-shadow: rgb(2, 67, 137) 0px 2px 2px 0px, 
+        rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+    cursor: pointer;
+}
+
+.banner-img{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 312px;
+    bottom: 16px;
+}
+
+/* Offers */
+
+.offers h2{
+    font-size: 30px;
+    color: #708aa5;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.coupon-container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 25px;
+    margin: 10px 80px;
+    scroll-snap-type: x mandatory;
+}
+
+.coupon-container::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
+.coupon-container img{
+    height: 30vh;
+    width: 500vh;
+    scroll-snap-align: center;
+    cursor: pointer;
+}
+
+/* Explore */
+
+.explore h2{
+  font-size: 30px;
+  color: #708aa5;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 10px 80px;
+}
+
+.cards{
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  row-gap: 15px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: #000 1px dotted;
+  height: 225px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.cards h3{
+  color: #2b4547;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.cards p{
+  line-height: 28px;
+  font-size: 16px;
+  color: #2b4547;
+}
+
+.cards img{
+  height: 80px;
+}
+
+.card-store img,
+.card-store h3,
+.card-store p{
+  transform: translateY(px);
+}
+
+.card-store p{
+  max-width: 300px;
+}
