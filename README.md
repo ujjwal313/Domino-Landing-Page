@@ -4,7 +4,7 @@ Clone of landing page of Domino's India.
 * Try the Clone site [here](https://ujjwal313.github.io/Domino-Landing-Page/)
 * Check out the original [Domino's Page](https://www.dominos.co.in/)
 
-<summary>Snap Shots of Clone Site</summary>
+# Snap Shots of Clone Site
 <p>
   <br>
   <img src="https://user-images.githubusercontent.com/43888129/147416009-dc18ac3e-812c-4d38-9831-88eda2c763ec.png" width="450"/> 
